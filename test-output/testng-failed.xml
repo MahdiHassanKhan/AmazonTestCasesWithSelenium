@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="mytest.Program1">
+        <methods>
+          <include name="searchOnAmazon"/>
+          <include name="clickAmazonSearch"/>
+          <include name="convertToEnglish"/>
+          <include name="addToCart"/>
+          <include name="verifyTitle"/>
+          <include name="verifyLogo"/>
+          <include name="tearDown"/>
+          <include name="typeAmazon"/>
+          <include name="clickItem"/>
+          <include name="navigate"/>
+          <include name="clickAmazonTitle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- mytest.Program1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
